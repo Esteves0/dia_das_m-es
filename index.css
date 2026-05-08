@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdf2f4; /* Um rosa bem clarinho e elegante */
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #4a4a4a;
+}
+
+.main-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+#frase {
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #d63384; /* Tom de rosa mais forte para o título */
+    line-height: 1.4;
+}
+
+.image-wrapper {
+    position: relative;
+    cursor: pointer;
+}
+
+#imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Bordas arredondadas dão um ar moderno */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border: 8px solid white; /* Moldura estilo Polaroid */
+    transition: transform 0.3s ease;
+}
+
+#imagem:hover {
+    transform: scale(1.02); /* Leve zoom ao passar o mouse */
+}
+
+.hint {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #888;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
